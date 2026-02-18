@@ -1,3 +1,9 @@
 Bug fixes
 - Retain log sizes for longer
-- Move 'Local lindata:string' definition to outside loop in function update_stats()
+Changes to function update_stats()
+  - Move Local linedata:String & Local writeDatestamp:String to outside Repeat loop
+  -   Change   Local linedata:String = ReadLine(infile) 
+      to       linedata = ReadLine(infile)
+  -   Change   Local writeDatestamp:String = reformatDate(logdate, "YYYY-MM-DD", "YYYYMMDD") 
+      to       writeDatestamp = reformatDate(logdate, "YYYY-MM-DD", "YYYYMMDD")
+  Look for other variables being deined with in the Repeat Loop. May be causing memory lag
