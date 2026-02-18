@@ -1,0 +1,3 @@
+Bug fixes
+- Retain log sizes for longer
+- Move Local lindata:string to outside loop in function update_stats()
