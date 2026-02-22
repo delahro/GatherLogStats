@@ -1,0 +1,12 @@
+groupname,path,datestamp,fileage,ageflag
+Finance,Finance>Supplier Portal>Remittances,2026-02-19 00:40:21,840,0
+Standard Invoices,Invoices>IGA>NSW>Customer,2026-02-19 14:00:55,31,0
+Standard Invoices,Invoices>IGA>VIC>Customer,2026-02-19 13:40:33,50,2
+Standard Invoices,Invoices>IGA>QLD>Customer,2026-02-19 13:56:44,35,1
+Standard Invoices,Invoices>IGA>SA>Customer,2026-02-19 13:53:50,45,1
+Standard Invoices,Invoices>IGA>WA>Customer,2026-02-19 14:02:28,31,1
+Directs Invoices,Invoices>IGA>NSW>Directs,2026-02-16 02:18:57,192,0
+Directs Invoices,Invoices>IGA>VIC>Directs,2026-02-16 13:18:29,182,0
+Directs Invoices,Invoices>IGA>QLD>Directs,2026-02 17 11:30:05,168,0
+Directs Invoices,Invoices>IGA>SA>Directs,2026-02-16 02:32:56,192,0
+Directs Invoices,Invoices>IGA>WA>Directs,2026-02-16 02:08:28,225,0
