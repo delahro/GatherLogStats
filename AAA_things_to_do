@@ -14,3 +14,17 @@ PRAGMA journal_mode
 
 PRAGMA cache_size = -64000;
 PRAGMA cache_size
+
+
+config entries for 1.15.001
+FOLDERSTATS=/Finance/Supplier Portal/Remittances|Finance;
+FOLDERSTATS=\Invoices\IGA\NSW\Customer|Customer Invoices;
+FOLDERSTATS=\Invoices\IGA\VIC\Customer|Customer Invoices;
+FOLDERSTATS=\Invoices\IGA\QLD\Customer|Customer Invoices;
+FOLDERSTATS=\Invoices\IGA\SA\Customer|Customer Invoices;
+FOLDERSTATS=\Invoices\IGA\WA\Customer|Customer Invoices;
+FOLDERSTATS=\Invoices\IGA\NSW\Directs|Directs Invoices;
+FOLDERSTATS=\Invoices\IGA\VIC\Directs|Directs Invoices;
+FOLDERSTATS=\Invoices\IGA\QLD\Directs|Directs Invoices;
+FOLDERSTATS=\Invoices\IGA\SA\Directs|Directs Invoices;
+FOLDERSTATS=\Invoices\IGA\WA\Directs|Directs Invoices;
