@@ -6,9 +6,9 @@ Changes to function update_stats()
       to       linedata = ReadLine(infile)
   -   Change   Local writeDatestamp:String = reformatDate(logdate, "YYYY-MM-DD", "YYYYMMDD") 
       to       writeDatestamp = reformatDate(logdate, "YYYY-MM-DD", "YYYYMMDD")
-  Look for other variables being deined with in the Repeat Loop. May be causing memory lag
+  Look for other variables being defined within the Repeat Loop. May be causing memory lag
 
-- Look at DB fine tuning
+- Look at DB fine-tuning
 PRAGMA journal_mode = WAL;
 PRAGMA journal_mode
 
